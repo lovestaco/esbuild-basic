@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esbuild Bundler Demo</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      #output {
+        margin-top: 20px;
+        font-weight: bold;
+        color: #007bff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Esbuild Bundler Demo</h1>
+    <p>Check the console for logs from the bundled script.</p>
+    <button onclick="runDemo()">Run Bundled Code</button>
+    <p id="output"></p>
+
+    <script src="http://localhost:3000/bundle.js"></script>
+  </body>
+</html>
